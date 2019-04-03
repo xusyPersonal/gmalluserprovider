@@ -32,6 +32,7 @@ public class ReverseIntTest {
 
         }
 
+
         while(!list.isEmpty()){
             res=res*10+list.removeFirst();
         }
