@@ -12,7 +12,6 @@ public class ReverseIntTest {
         Long endTime = System.currentTimeMillis() ;
         System.out.println("reverseInt 耗时："+(endTime-initTime)+"ms");
 
-
         initTime = System.currentTimeMillis() ;
         a =ft.reverseIntUseLinkedList(b);
         endTime = System.currentTimeMillis() ;
